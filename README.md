@@ -10,10 +10,10 @@ This project implements a closed-loop virtual reality (VR) system that simulates
 
 A camera continuously tracks the mantis’ head movements in real time. Based on this input:
 
-The field of view of the monitors dynamically updates, shrinking or stretching as the mantis moves.
+- The field of view of the monitors dynamically updates, shrinking or stretching as the mantis moves.
 
-Objects within the scene exhibit motion parallax consistent with their simulated distance.
+- Objects within the scene exhibit motion parallax consistent with their simulated distance.
 
-The mantis experiences a naturalistic, interactive visual world where depth cues adapt to its own movements.
+- The mantis experiences a naturalistic, interactive visual world where depth cues adapt to its own movements.
 
 This setup enables experiments that closely approximate real-world perception, while maintaining the control and reproducibility of a VR environment.
