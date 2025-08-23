@@ -18,28 +18,28 @@ A camera continuously tracks the mantis’ head movements in real time. Based on
 
 ## Repository Structure
 
-Closed Loop_Track head, stream and save.ipynb
+1. Closed Loop_Track head, stream and save.ipynb
 Tracks the mantis’ head position in real time, streams coordinates, and saves tracking data.
 
-Code to record at 60 fps using PG.ipynb
+2. Code to record at 60 fps using PG.ipynb
 High-speed head tracking using the Point Grey camera (60 fps recording).
 
-### 📂 Unity_scripts (VR Environment)
+### 3. 📂 Unity_scripts (VR Environment)
 
 #### Core Scripts
 
-BlobDataReciever.cs — Receives live head coordinates streamed from the notebook.
+- BlobDataReciever.cs — Receives live head coordinates streamed from the notebook.
 
-FirstPersonController.cs — Moves the “player” in the VR world based on head movement, ensuring realistic motion parallax.
+- FirstPersonController.cs — Moves the “player” in the VR world based on head movement, ensuring realistic motion parallax.
 
-New_FOV1.cs, New_FOV2.cs, New_FOV3.cs — Adjust field of view on each of the three monitors dynamically, creating a consistent immersive view.
+- New_FOV1.cs, New_FOV2.cs, New_FOV3.cs — Adjust field of view on each of the three monitors dynamically, creating a consistent immersive view.
 
 #### Utility & Additional Scripts
 
-Scripts for resetting or exiting the VR game.
+- Scripts for resetting or exiting the VR game.
 
-Scripts for multi-screen activation, ensuring synchronized rendering across all three monitors.
+- Scripts for multi-screen activation and rendering across all three monitors.
 
-Scripts for object motion (e.g., oscillating stimuli), useful for experimental manipulations.
+- Scripts for object motion (e.g., oscillating stimuli), useful for experimental manipulations.
 
 This setup enables experiments that closely approximate real-world perception, while maintaining the control and reproducibility of a VR environment.
